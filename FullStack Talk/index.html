@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body id="home" data-bs-spy="scroll" data-bs-target=".navbar">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+      <div class="container">
+        <a class="navbar-brand order-1 mr-0" href="https.www.google.com"
+          >Presented By Mr.Nobody</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#speakers">Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#schedule">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--/Navbar-->
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid bg-info text-center">
+      <div class="container text-white mt-5">
+        <h1 class="display-2">Full Stack Talk</h1>
+        <p class="lead">It is all about the Full Stack Topics</p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#register">
+            Register Now
+          </button>
+          <a href="#schedule" class="btn btn-danger btn-lg">See Schedule</a>
+        </div>
+      </div>
+    </div>
+    <!--/Jumbotron-->
+
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col">
+          <h3 class="mb-4">Expert Speakers</h3>
+          <p>
+            Our expert speaker lineup was just announced, so don't wait too long
+            before grabbing your tickets!
+          </p>
+          <p>
+            Want to meet the international JavaScript community and share skills
+            with some of the world's top experts, hackers, and makers? Be the
+            first to know what to expect for the future of JavaScript.
+          </p>
+          <p>
+            Full Stack Conf is committed to being inclusive and welcoming for
+            everyone. We look forward to another intensive day of learning and
+            sharing.
+          </p>
+        </div>
+
+        <div class="col">
+          <h3 class="mb-4">About Full Stack Conf</h3>
+          <img
+            class="img-fluid rounded"
+            src="img/StockCake-Mountain Lake Reflection_1720151633.jpg"
+            alt="mountain"
+          />
+          <p>
+            The Beautiful city of Portland, Oregon will be the host city for
+            Full Stack Conf!
+          </p>
+          <p>
+            Explore the future of Javascript with a lineup of industry
+            professionals. Discover new techniques to advance your career as a
+            web developer
+          </p>
+        </div>
+
+        <div class="col">
+          <h3 class="mb-4">What You'll Learn</h3>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action"
+              ><strong>MongoDB</strong>: NoSQL database</a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              ><strong>Express</strong>: Framework for Node</a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              ><strong>React</strong>: JavaScript library</a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              ><strong>Node.js</strong>: JavaScript environment</a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              ><strong>ES2016</strong>: Latest version of Javascript</a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              ><strong>Babel</strong>: JavaScript compiler</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <!--Speaker-->
+        <h1 id="speakers" class="display-4 text-center text-muted my-5">Speaker</h1>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/man_1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Jonathan</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img
+                src="img/man_2.jpg"
+                class="card-img-top"
+                height="auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jack</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/man_3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">William</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/woman_1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Olivia</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/woman_2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Amelia</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/woman_3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Agatha</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/Speaker-->
+
+        <!--Schedule-->
+        <h1 id="schedule" class="display-4 text-center text-muted my-5">
+          Schedule
+        </h1>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <div class="d-flex justify-content-between">
+              <h5 class="">Keynote: Internet of thing</h5>
+              <span class="badge badge-info p-2">9:00am</span>
+            </div>
+            <p class="mb-1">Jonathan</p>
+          </li>
+          <li class="list-group-item">
+            <div class="d-flex justify-content-between">
+              <h5 class="">Keynote: Artificial Intelligence</h5>
+              <span class="badge badge-info p-2">10:00am</span>
+            </div>
+            <p class="mb-1">jack</p>
+          </li>
+          <li class="list-group-item">
+            <div class="d-flex justify-content-between">
+              <h5 class="">Keynote: Programming Knowledge</h5>
+              <span class="badge badge-info p-2">11:00am</span>
+            </div>
+            <p class="mb-1">William</p>
+          </li>
+          <li class="list-group-item">
+            <div class="d-flex justify-content-between">
+              <h5 class="">Keynote: Software Engineering</h5>
+              <span class="badge badge-info p-2">12:00pm</span>
+            </div>
+            <p class="mb-1">Olivia</p>
+          </li>
+          <li class="list-group-item">
+            <div class="d-flex justify-content-between">
+              <h5 class="">Keynote: Networking</h5>
+              <span class="badge badge-info p-2">2:00pm</span>
+            </div>
+            <p class="mb-1">Amelia</p>
+          </li>
+          <li class="list-group-item">
+            <div class="d-flex justify-content-between">
+              <h5 class="">Keynote: Computer Science</h5>
+              <span class="badge badge-info p-2">3:00pm</span>
+            </div>
+            <p class="mb-1">Agatha</p>
+          </li>
+        </ul>
+        [Schedule goes here]
+        <!--call out button-->
+        <button
+          type="button"
+          class="btn btn-outline-info d-block mx-auto btn-lg mt-5" data-bs-toggle="modal" data-bs-target="#register"
+        >
+          Don't Miss Out, Register Now
+        </button>
+        <!--SignUp Form-->
+        <hr />
+        <div id="about" class="row py-4 text-muted">
+          <div class="col-md col-lg-5">
+            <p><strong>About FullStack</strong></p>
+            <p>
+              web conferences brings affordable technology education to people
+              everywhere to help them achieve their dreams and change the world
+            </p>
+          </div>
+          <div class="col-md col-lg mx-auto">
+            <p><strong>Stay up-to-date on Full Stack Conf</strong></p>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="email" />
+              <span class="input-group-btn">
+                <button class="btn btn-info">Sign Up</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <!--footer-->
+      <div class="row py-4">
+        <div class="col-md-7">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-info" href="#">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-info" href="#">Tracks</a>
+            </li>
+            <li class="nav-item">
+              <!-- Example split danger button -->
+              <div class="btn-group dropup">
+                <button type="button" class="btn btn-outline-info">
+                  Action
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-info dropdown-toggle dropdown-toggle-split"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">CSS</a>
+                  <a class="dropdown-item" href="#">HTML</a>
+                  <a class="dropdown-item" href="#">JavaScript</a>
+                  <a class="dropdown-item" href="#">Python</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md text-md-right">
+          <small>&copy; 2024 Full Stack Talk &amp; Mr.Nobody</small>
+        </div>
+      </div>
+      <!--/footer-->
+    </div>
+    <div
+      class="modal fade"
+      id="register"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <h5 class="mb-4">Basic Information</h5>
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Hurry Up!</strong> Registration ends in two days.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="role">Job Role:</label>
+                <select class="form-control" id="role">
+                  <option value="full stack javaScript developer">full stack JavaScript Developer</option>
+                  <option value="frontend developer">Frontend Developer</option>
+                  <option value="backend developer">Backend Developer</option>
+                  <option value="designer">UI/UX Designer</option>
+                  <option value="student">Student</option>
+                </select>
+              </div>
+
+              <hr class="mb-4">
+              <h5 class="mb-4">Which Topic Interested you most?</h5>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">JavaScript Framework</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                <label class="custom-control-label" for="customCheck2">React</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                <label class="custom-control-label" for="customCheck3">PHP Framework</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck4">
+                <label class="custom-control-label" for="customCheck4">Spring</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck5">
+                <label class="custom-control-label" for="customCheck5">Node Js</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck6">
+                <label class="custom-control-label" for="customCheck6">Python</label>
+              </div>
+
+              <hr class="mb-4">
+              <h5 class="mb-4"><u>Payment Info</u></h5>
+              <div class="form-row">
+                <div class="col-lg-6 form-group" >
+                  <label for="cc-num">Card Number:</label>
+                  <input class="form-control" id="cc-num" type="text">
+                </div>
+                <div class="col-lg form-group">
+                  <label for="zip">Zip Code:</label>
+                  <input class="form-control" id="zip" type="text">
+                </div>
+                <div class="col-lg form-group">
+                  <label for="ccv">CVV:</label>
+                  <input class="form-control" id="ccv" type="text">
+                </div>
+              </div>
+              <div class="form-row">
+                <label class="col-lg-12">Expiration Date:</label>
+                <div class="col-lg-8">
+                  <select class="custom-select form-control" id="exp-month">
+                    <option value="1">1 - January</option>
+                    <option value="2">2 - February</option>
+                    <option value="3">3 - March</option>
+                    <option value="4">4 - April</option>
+                    <option value="5">5 - May</option>
+                    <option value="6">6 - June</option>
+                    <option value="7">7 - July</option>
+                    <option value="8">8 - August</option>
+                    <option value="9">9 - September</option>
+                    <option value="10">10 - October</option>
+                    <option value="11">11 - November</option>
+                    <option value="12">12 - December</option>
+                  </select>
+                </div>
+                <div class="col-lg">
+                  <select class="custom-select" id="exp-year">
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                  </select>
+                </div>
+
+              </div>
+              <hr class="mb-4">
+              <button type="submit" class="btn btn-info btn-lg">Register</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-info">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/bootstrap.min.js"></script>
+</html>
